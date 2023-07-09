@@ -1,0 +1,187 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html{
+scroll-behavior: smooth;
+
+}
+
+body {
+
+   background-color: black !important;
+   color: white !important;
+}
+
+p {
+
+
+   color: white;
+}
+
+.about_me {
+
+   text-align: center;
+   /* border: 2px solid red; */
+}
+
+.icons {
+
+   text-align: right;
+}
+
+.content {
+
+   padding: 10px;
+   text-transform: capitalize;
+}
+
+.bg-color{
+background-color: #212529!important;
+}
+.text_padding{
+padding: 10px;
+}
+
+.icons_1 {}
+
+.my_skills {
+
+   padding: 10px;
+}
+
+.skill-group {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 650px;
+   margin-bottom: 10px;
+}
+
+
+.skill_iteam {
+   display: flex;
+   align-items: center;
+   gap: 9px;
+}
+
+.skill {
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+}
+
+.ms_of {
+   background-color: #00A0B6;
+}
+
+.htm_col {
+
+   background-color: #FFC395;
+}
+
+
+.css_col {
+
+   background-color: #C2D5A8;
+}
+
+.btn_2 {
+   padding: 5px 20px;
+   border-radius: 20px;
+   background-color: blue;
+   color: white;
+
+}
+.social-links{
+display: flex;
+    gap: 20px;
+    margin-left: 21px;
+
+}
+.sociai, i{
+
+font-size: 25px;
+cursor: pointer;
+}
+
+
+.html_bg {
+   background-color: #0091AC;
+
+}
+
+.css_bg {
+
+   background-color: #01BBB8;
+}
+
+.java_sc {
+   background-color: #3db3a5;
+}
+
+.js_bg {
+   background-color: #01D9EE;
+}
+
+.icons_1 {
+   text-align: right;
+   margin-top: 50px;
+}
+
+.eduction_content {
+
+   margin-top: 30px;
+
+
+}
+
+.eduction {}
+
+.resume_btn {
+
+   background-color: rgb(201, 135, 12);
+   color: white;
+   padding: 10px;
+   border-radius: 9px;
+   outline: none;
+   text-transform: capitalize;
+border: none;
+}
+
+
+@media only screen and (max-width:750px)  {
+
+   .icons{
+      text-align: center;
+   }
+   .icons_1 {
+      text-align: center;
+
+   }
+
+
+
+}
+
+@media only screen and (max-width:750px){
+
+.social_icon{
+
+   display:flex;
+}
+
+
+.skill-group{
+flex-direction: column;
+/*margin-top: 15px;*/
+}
+
+.social-links{
+margin-left: 105px;
+
+}
+
+}
